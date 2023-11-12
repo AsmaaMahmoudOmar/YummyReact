@@ -32,7 +32,7 @@ export default function SideBar() {
         <div ref={menuSide} className='Menu d-flex flex-column justify-content-between py-4 px-3 bg-black'>
             <ul className='list-unstyled'>
                 <li className='mb-2 pointer'>
-                    <Link className='text-decoration-none text-white' to={'/search'}>Search</Link>
+                    <Link onClick={closeSide} className='text-decoration-none text-white' to={'/search'}>Search</Link>
                 </li>
                 <li className='mb-2 pointer'>
                     <Link onClick={closeSide} className='text-decoration-none text-white' to={"/categories"}>Categories</Link>
