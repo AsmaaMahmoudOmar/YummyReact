@@ -25,7 +25,7 @@ export default function Area() {
     {areas.length?
       <div className="row g-3">
         {areas.map((area, index) => (
-          <div key={index} className="col-md-3 pointer text-center" >
+          <div key={index} className="col-10 col-sm-11 col-lg-3 col-md-6 offset-2 offset-sm-1 offset-md-0 pointer text-center" >
             <Link to={`/nameArea/${area.strArea}`} className="text-decoration-none text-white">
 
             <i class="fa-solid fa-house-laptop fa-4x"></i>

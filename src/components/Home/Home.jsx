@@ -24,7 +24,7 @@ export default function Home() {
         <title>Home</title>
       </Helmet>
       {meals.length?
-      <div  className="row g-3">
+      <div  className="row g-3 d-flex align-items-center">
         {meals.map((mealInfo)=>
         <Card meal={mealInfo}  />
         )}

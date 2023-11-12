@@ -24,7 +24,7 @@ export default function Ingredients() {
       {ingredients.length?
       <div className="row">
         {ingredients.map((ingredient) => (
-          <div key={ingredient.idIngredient} className="col-md-3 text-center">
+          <div key={ingredient.idIngredient} className="col-10 col-sm-11 col-lg-3 col-md-6 offset-2 offset-sm-1 offset-md-0 text-center">
             <Link  to={`/typeingredients/${ingredient.strIngredient}`}className="text-decoration-none text-white">
               <i class="fa-solid fa-drumstick-bite fa-4x"></i>
               <h3>{ingredient.strIngredient}</h3>

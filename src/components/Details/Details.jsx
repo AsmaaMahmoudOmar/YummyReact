@@ -41,7 +41,7 @@ export default function Details() {
       </Helmet>
       {detail? (
         <div className="row text-white g-3">
-          <div className="col-md-4">
+          <div className="col-10 col-sm-11 col-md-4 offset-2 offset-sm-1 offset-md-0">
             <img
               src={detail.strMealThumb}
               alt={detail.strMeal}
@@ -52,9 +52,9 @@ export default function Details() {
               <button className="btn btn-outline-warning mt-4">Back To Home</button>
             </Link>
           </div>
-          <div className="col-md-8">
+          <div className="col-10 col-sm-11 col-md-8 offset-2 offset-sm-1 offset-md-0">
             <h3>instruction</h3>
-            <p>{detail.strInstructions}</p>
+            <p className="">{detail.strInstructions}</p>
             <div className="d-flex align-items-center py-2">
               <h4 className="me-2">Area:</h4>
               <h4>{detail.strArea}</h4>

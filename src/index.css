@@ -74,3 +74,6 @@ body{
 .pointer{
   cursor: pointer;
 }
+p{
+  text-align: justify;
+}

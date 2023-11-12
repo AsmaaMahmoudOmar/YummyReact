@@ -30,7 +30,7 @@ export default function Categories() {
       {category.length?
       <div className="row g-3">
         {category.map((Cate)=>
-        <div key={Cate.idCategory} className="col-md-3">
+        <div key={Cate.idCategory} className="col-10 col-sm-11 col-lg-3 col-md-6 offset-2 offset-sm-1 offset-md-0">
            <Link to={`/typecategory/${Cate.strCategory}`} >
                 <div
                   className={`${Style.inner} position-relative overflow-hidden overflow-hidden `}
