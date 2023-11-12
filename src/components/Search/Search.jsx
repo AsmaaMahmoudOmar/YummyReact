@@ -15,8 +15,8 @@ export default function Search() {
   return (
     
     <>
-      <div className="row py-4">
-        <div className="col-md-6">
+      <div className="row g-3 py-4">
+        <div className="col-10 col-sm-11 col-md-6 offset-2 offset-sm-1 offset-md-0">
           <input
             type="text"
             className="form-control shadow-none"
@@ -28,7 +28,7 @@ export default function Search() {
             }}
           />
         </div>
-        <div className="col-md-6">
+        <div className="col-10 col-sm-11 col-md-6 offset-2 offset-sm-1 offset-md-0">
           <input
             type="text"
             maxLength="1"
