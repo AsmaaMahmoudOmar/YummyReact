@@ -5,7 +5,7 @@ export default function Card({meal}) {
     console.log(meal);
   return (
     <>
-     <div className="col-md-3" key={meal.idMeal}>
+     <div className="col-lg-3 col-md-6 col-sm-11 offset-sm-1 " key={meal.idMeal}>
               <Link to={`/${meal.idMeal}`}>
                 <div
                   className={`${Style.inner} position-relative overflow-hidden `}
